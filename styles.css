@@ -121,6 +121,7 @@ body {
       /*border: 2px solid red;*/
       text-align: left;
       padding-left: 20px;
+      max-width: 150px;
     }
 
     .nav li {

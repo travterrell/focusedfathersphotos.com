@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           </form>
         </div>
           <img src="assets/focused-fathers-bottom-bar.png">
-          <p class="footer"><span>©</span> 2017 Focused Fathers Photography</p>
+          <p class="footer"><span>©</span> <?php echo date("Y");?> Focused Fathers Photography</p>
           <p class="footer">Design by <a href="http://www.travterrell.com" target="_blank"><img class="footer_logo" src="assets/travlogo.png" alt="Design by Travis Terrell - www.travterrell.com"></p>
         </div>
       </div>

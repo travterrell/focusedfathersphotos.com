@@ -35,13 +35,19 @@
         </div>
         <div class="col-sm-10 content">
           <img src="assets/focused-fathers-top-bar.png">
-          <h1>ABOUT</h1>
-          <p>It began with two fathers who adored capturing their families’ precious moments. Deilavonce Frazier and Rasheed Prescott decided to take their gift and passion for photography to the next level. Based in the Greater Long Beach area, FOCUSed Fathers Photography was established in February 2015.</p>
-          <p>Since then, FOCUSed Fathers Photography has allowed their patrons to relive magical moments by capturing brilliant images at weddings, graduation parties, family photoshoots and special events of all kinds.</p>
-          <p>Their focus is not only behind the lens, but also in their communities and households. You may see them capturing special moments at their daughter's softball games and ballet recitals, or without a camera doing community service and mentoring youth.</p>
-          <p>FOCUSed Fathers Photography aims to provide a professional atmosphere and superior customer service. Just tell them where and they'll arrive on location, prompt and ready to work.</p>
+          <div id="photos" class="row">
+            <div class="col-sm-12">
+              <ul class="rslides">
+                <li><img src="assets/photos/index1.jpg" alt="Focused Fathers"></li>
+                <li><img src="assets/photos/index2.jpg" alt="Focused Fathers"></li>
+                <li><img src="assets/photos/index3.jpg" alt="Focused Fathers"></li>
+                <li><img src="assets/photos/index4.jpg" alt="Focused Fathers"></li>
+                <li><img src="assets/photos/index5.jpg" alt="Focused Fathers"></li>
+              </ul>
+            </div>
+          </div>
           <img src="assets/focused-fathers-bottom-bar.png">
-          <p class="footer"><span>©</span> 2018 Focused Fathers Photography</p>
+          <p class="footer"><span>©</span> <?php echo date("Y");?> Focused Fathers Photography</p>
           <p class="footer">Design by <a href="http://www.travterrell.com" target="_blank"><img class="footer_logo" src="assets/travlogo.png" alt="Design by Travis Terrell - www.travterrell.com"></p>
         </div>
       </div>
